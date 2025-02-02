@@ -208,3 +208,6 @@ generateBtn.addEventListener('click', () => {
     //calculate strength
     calcStrength();
 });
+
+
+//yes
