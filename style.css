@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+
+}
+
+.container{
+    height: fit-content;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgba(244, 242, 242, 0.458);
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 2rem; */
+    font-family: sans-serif;
+    color: rgb(222, 220, 220);
+    border: 0px solid rgb(255, 255, 255);
+    /* box-shadow: 0 0  40px rgb(235, 235, 235) ; */
+    border-radius: 2px;
+}
+h1{
+    font-family: sans-serif;
+    color: rgb(222, 220, 220);
+    margin-top: 1rem;
+   
+}
+
+.display_container{
+    display: flex;
+    background-color: rgba(244, 242, 242, 0.458);
+    width: 380px;
+    justify-content: space-between;
+
+}
+/* input[type=password]{
+    background-color:rgba(244, 242, 242, 0.458) ;
+} */
+ .display{
+    background-color:rgba(244, 242, 242, 0.458);
+    font-family: sans-serif;
+    color:rgb(18, 17, 17);
+    border: 0;
+    /* border-radius: 4px; */
+    width: 100%;
+ }
+ button{
+    background-color:rgba(244, 242, 242, 0.458);
+    margin: 0;
+    border: 0;
+ }
+ .Lenght{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: large;
+    width: 100%;
+    /* padding-right: 20px;
+    padding-left: 20px; */
+
+    }
+
+    input[type="range"]{
+       width: 100%;
+       background-color: rgb(214, 214, 214);
+       appearance: none;
+       background-color: #000000;
+       height: 2px;
+       cursor: crosshair;
+       outline: #000000;
+       margin-bottom: 15px;
+
+}  
+
+.select{
+    display: flex;
+    flex-direction: column;
+
+}
+input[type="checkbox"]{
+    float: left;
+    margin-right: 20px;
+    /* margin-top: 5px; */
+}
+
+
+
+h2{
+    font-size: medium;
+    padding-top: 10px;
+
+}
+.generate{
+    width: 300px;
+    /* color: beige; */
+    /* box-shadow:0 0 40px #000000; */
+    border-radius: 2px;
+    padding: 10px;
+
+}
+.copymssage{
+    position: absolute;
+    margin-top: 30px;
+    border: 1px solid black;
+    transition: all 0.8s;
+    opacity: 0;
+    border-radius: 2px ; 
+    transform: scale(0);
+
+
+}
+.active{
+    opacity: 1;
+    transform: scale(1);
+}
+.indi{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius:60% ;
+    /* position: absolute; */
+    /* background-color: antiquewhite; */
+    /* box-shadow: 0 0 20px; */
+}
+.Strength{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 10px;
+}

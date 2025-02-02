@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+
+ 
+    <div class="container">
+      <img src="key.png" alt="" height="150px" width="150px" class="key">
+
+      <h1>Password Generator</h1>
+
+    <div class="display_container">
+      
+        <input readonly placeholder="Genrate Password" class="display" data-passwordDisplay>
+
+        <button data-copybutton>
+
+         <span data-copyMsg class="copymssage"></span>
+         <img src="copy.png" alt="copy" height="23px" width="23px">
+
+        </button>
+</div>
+
+<div class="input-container">
+
+<div class="Lenght">
+    <p>Password Lenght</p>
+  <p data-Lenght>0</p>
+</div>
+ 
+<div class="range">
+    <input type="range" min="1" max="20" class="slider" step="1">
+
+</div>
+
+<div class="select" >
+
+  <label for="Upper " class="checkk">Include Lowercase
+      <input type="checkbox" id="upper" >
+      <span class="checkmark"></span>
+   </label>
+
+
+   <label for="Lower" class="checkk" >Include Uppercase
+      <input type="checkbox" id="lower">
+      <span class="checkmark"></span>
+   </label>
+
+
+   <label for="number" class="checkk">Include Numbers
+       <input type="checkbox" id="number" >
+       <span class="checkmark"></span>
+   </label>
+
+   <label for="symbols" class="checkk">Include Symbols
+        <input type="checkbox" id="symbols" >
+        <span class="checkmark"></span>
+   </label>
+
+</div>
+   
+<div class="Strength">
+    <h2>Strenght</h2>
+    <div data-indicator class="indi"></div>
+</div>
+     
+  <button class="generate">
+ 
+     Genrate Password
+
+  </button>
+
+
+</div>
+
+
+
+
+    </div>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>
